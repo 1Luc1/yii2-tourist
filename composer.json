@@ -1,0 +1,25 @@
+{
+    "name": "luc1/yii2-tourist",
+    "description": "Tourist Extension for Yii 2",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension"
+    ],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Luc",
+            "email": "lukas.aigner@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/bootstrap-tourist": "~0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "luc\\tourist\\": ""
+        }
+    }
+}
